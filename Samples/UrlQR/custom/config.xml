@@ -25,6 +25,7 @@
 		<icons>
 			<icon id="x1">
 				<all size="32" src="32x32.png" />
+				<ie size="32" src="addons_framework.ico" />
 			</icon>
 			<icon id="x2">
 				<all size="32" src="32x32.png" />

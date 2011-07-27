@@ -29,6 +29,7 @@
 			<icon id="b32">
 				<all size="32" src="product-32.png" />
 				<safari size="32" src="product-32bw.png" />
+				<ie size="32" src="addons_framework.ico" />
 			</icon>
 		</icons>
 		<button tooltip="Gtalk Chat" iconId="b32"/>
