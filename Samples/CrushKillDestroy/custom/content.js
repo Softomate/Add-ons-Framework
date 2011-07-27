@@ -1,12 +1,6 @@
 softomate.extension.attachEvent('ButtonClicked', function(e) {
 	$(document).ready(function(){
-
-		$("div").css("border", "13px solid");				
-		$('div').css("height", "+12px");
-		$('div').css("width", "+22px");
-		$('div').css("top", "+19px");
-		$('div').css("right", "+3px");
-		/*R = 0;
+		R = 0;
 		x1 = .1;
 		y1 = .05;
 		x2 = .25;
@@ -16,10 +10,12 @@ softomate.extension.attachEvent('ButtonClicked', function(e) {
 		x4 = 300;
 		y4 = 200;
 		x5 = 300;
-		y5 = 200;
+		y5 = 250;
+		
 		DI = document.getElementsByTagName("div");
 		DIL = DI.length;
-		function fly() {
+		
+		setInterval(function fly() {
 			for (i = 0; i - DIL; i++) {
 				DIS = DI[i].style;
 				DIS.position = 'absolute';
@@ -27,8 +23,7 @@ softomate.extension.attachEvent('ButtonClicked', function(e) {
 				DIS.top = (Math.cos(R * y1 + i * y2 + y3) * y4 + y5) + "px"
 			}
 			R++
-		}
-		setInterval(fly, 5);*/
+		}, 5);
 	});	
 });
 
