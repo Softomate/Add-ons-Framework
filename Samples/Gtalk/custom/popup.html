@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="jquery-1.5.1.min.js"></script>
+		<script>
+			function initSoftomate(callback){
+				console.log((new Date()).getTime() + " - "  + typeof softomate);
+				if(typeof softomate == 'undefined'){
+					setTimeout(function(){
+						initSoftomate(callback);
+					}, 10)
+				} else {
+					callback.call(window);
+				}
+			}
+			$(document).ready(function(){
+				initSoftomate( function(){
+					console.log('test');
+					softomate.extension.log('softomate was successfully initiated');
+				});
+			});
+		</script>
+	</head>
+	<body>Test!</body>
+</html>

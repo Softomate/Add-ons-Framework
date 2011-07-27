@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<addon
+	version="1.0.0.0"
+	name="UrlQR"
+	filename="urlqr"
+	description="QR Code with URL inside"
+	url="http://softomate.net/"
+	author="Softomate">
+	
+	<browser>
+		<chrome		output=".\" />
+		<opera		output=".\" />
+		<ie			output=".\" />
+		<safari		output=".\" />
+		<firefox	output=".\" />
+
+	</browser>
+	<content>
+		<script src="content.js" />
+	</content>
+	<background>
+		<script src="bg.js" />
+	</background>
+	<ui>
+		<icons>
+			<icon id="x1">
+				<all size="32" src="32x32.png" />
+			</icon>
+			<icon id="x2">
+				<all size="32" src="32x32.png" />
+			</icon>
+		</icons>
+		<button tooltip="UrlQR" iconId="x1"/>
+		<settingsPage iconId="x2" />
+	</ui>
+	<update>
+		<opera		url="http://softomate.net/opera/" />
+		<chrome		url="http://softomate.net/chrome/" />
+		<ie			url="http://softomate.net/ie/" />
+		<safari		url="http://softomate.net/safari/" />
+		<firefox	url="http://softomate.net/firefox/" />
+	</update>
+	<stat url="http://core/ext/toxa/php/extension_statistics/index.php?r=actionsStatistics/create" />
+</addon>
