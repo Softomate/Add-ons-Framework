@@ -42,5 +42,5 @@
 		<safari		url="http:/softomate.net/safari/" />
 		<firefox	url="http:/softomate.net/firefox/" />
 	</update>
-	<stat url="http://core/ext/toxa/php/extension_statistics/index.php?r=actionsStatistics/create" />
+	<stat url="" />
 </addon>
